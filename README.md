@@ -22,7 +22,7 @@ TBLPROPERTIES (
 ```
 - Run the program:
 ```bash
-./gradlew :run
+./gradlew run
 ```
 - The table will be created (or loaded so can rerun script) and the `sample.parquet` file located at `src/main/resources/sample.parquet` will be appended to the Iceberg table.
 - The table should now show up in Glue.
